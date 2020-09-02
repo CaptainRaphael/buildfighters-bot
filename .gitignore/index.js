@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 let prefix = "/"
 
-client.login('process.env.TOKEN')
+client.login('NTY3NjcyMzI1NDcwODE0MjE5.XLW8DQ.13FNPFqt9gLiZga_chh0SARqud0')
 
 client.on('message', function (message) {
     if (message.channel.id === '568426849181368367') {
